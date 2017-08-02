@@ -13,7 +13,6 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-
         BigDecimal preLastNumber = BigDecimal.valueOf(1);
         BigDecimal lastNumber = BigDecimal.valueOf(1);
 
