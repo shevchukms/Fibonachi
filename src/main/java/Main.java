@@ -20,7 +20,7 @@ public class Main {
         try {
             fibo(preLastNumber, lastNumber, n);
         } catch (StackOverflowError e) {
-            System.out.println("Введіть значення менше за " + count + ", пораховано " + count + " чисел Фібоначі");
+            System.out.println("Введіть значення менше за " + (count-1) + ", пораховано " + (count-1) + " чисел Фібоначі");
         }
 
         System.out.println(String.format("Непарних чисел %d  що становить %.2f відсотків", odd, (odd * 100f / n)));
