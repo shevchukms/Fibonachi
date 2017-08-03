@@ -60,7 +60,7 @@ public class Main {
                 number567 = output;
             }
 
-            System.out.println(" " + preLastNumber);
+            System.out.println(count + " : " + preLastNumber);
             fibo(lastNumber, output, number);
         }
     }
